@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kurale", serif;
+}
+.container {
+    padding: 0 20px;
+}
+.header-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 8px 0;
+    background-color: #FFA51E;
+    color: #ffffff;
+    border-radius: 0 0 25px 25px;
+    font-size: 15px;
+}
+.logo {
+    display: block;
+    background-image: url(../assets/img/logo.png);
+    width: 35px;
+    height: 37px;
+    background-size: cover;
+}
+.bg {
+    background-image: url(../assets/img/bg.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position-x: center;
+    background-position-y: center;
+}
+.title_enter, .title_reg {
+    font-size: 77px;
+    color: #ffffff;
+    margin-left: 22%;
+    text-shadow: -7px 9px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 0.01px #5b5b5b;
+    padding-top: 83px;
+}
+.form_auth_style {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    max-width: 63vw;
+}
+.form_auth_button, .form_auth_button_reg {
+    font-size: 26px;
+    background-color: #07232E;
+    color: #FFAB2D;
+    width: fit-content;
+    padding: 7px 55px;
+    margin-left: 21.5%;
+    border: none;
+    border-radius: 18px;
+    margin-top: 37px;
+}
+.form_login, .form_login_reg {
+    width: 62%;
+    margin-left: 17%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 9px;
+    border: 1px solid #c1c1c1;
+    box-shadow: -13px 10px 16px rgba(0, 0, 0, 0.25);
+}
+.enter_lable {
+    font-size: 14px;
+    color: #d1730b;
+    margin-left: 26.5%;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin-top: 20px;
+}
+.enter_link {
+    font-size: 14px;
+    color: #d1730b;
+}
+.flex {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.title_reg {
+    margin-left: 9%;
+    padding-top: 35px;
+}
+.form_auth_style_reg {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    max-width: 63vw;
+}
+.form_auth_button {
+    margin-left: 33.5%;
+}
+.form_login_reg {
+    margin-left: 11%;
+}
+.card {
+    border: 1px solid #000000;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.more {
+    cursor: pointer;
+}
+.more:hover {
+    color: #d1730b;
+}
+.header-nav li {
+    cursor: pointer;
+}
