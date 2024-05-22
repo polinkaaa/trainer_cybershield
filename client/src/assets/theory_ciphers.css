@@ -1,0 +1,147 @@
+/* main */
+.main__title {
+    font-size: 18px;
+    margin: 37px 0;
+}
+
+/*.main__nav {
+    width: 36.4%;
+    @media (max-width: $mob) {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+}*/
+    
+.main__btn_tab {
+    border: none;
+    background-color: transparent;
+    padding: 10px 10px 8px 10px;
+    width: 100%;
+    text-align: left;
+    color: #d7cfcf;
+    font-weight: bold;
+    /*@media (max-width: $mob) {
+        border-right: 1px solid #EEEEEE;
+    }*/
+}
+
+.main li:last-child &__btn_tab {
+    /*@media (max-width: $mob) {
+        border-right: none;
+    }*/
+}
+
+.main__nav_hr {
+    border: none;
+    height: 1px;
+    background: #EEEEEE;
+    margin: 0;
+}
+
+.main__question_title {
+    font-size: 20px;
+}
+
+.main__questions {
+    display: flex;
+    flex-direction: column;
+    padding: 13px 22.5px;
+    /*box-shadow: 0px 1px 3px 0px #00000033;
+    width: 100%;*/
+    /*@media (max-width: $mob) {
+        width: 90%;
+    }*/
+}
+
+.main__btn_continue {
+    display: block;
+    /*position: absolute;*/
+    padding: 14px 45px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 90px;
+    border-radius: 8px;
+    color: #000000;
+    border: 1px solid #00000020;
+    font-size: 16px;
+}
+    
+.main__btn_continue:disabled {
+    background-color: #1C1A1A15;
+}
+    
+.main__btn_continue:enabled {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+/*.box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 56px;
+    @media (max-width: $mob) {
+        flex-direction: column;
+    }
+}*/
+
+.tab {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 15px 0 0;
+    box-shadow: 0px 1px 3px 0px #00000033;
+    background-color: #3d7ceb;
+    /*@media (max-width: $mob) {
+        display: flex;
+    }*/
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.number {
+    color: #E9262D;
+    margin-right: 13px;
+}
+
+.points {
+    color: #73BE43;
+    margin-right: 13px;
+}
+
+li:last-child p {
+    margin-bottom: 10px;
+}
+
+button.is-active {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+section.is-active {
+    display: block;
+}
+
+.asim_ciphers_img, .sim_ciphers_img {
+    width: 600px;
+    height: 315px;
+    background-size: cover;
+}
+.asim_ciphers_img {
+    background-image: url(../assets/img/theory/asimm_ciphers.png);
+}
+.sim_ciphers_img {
+    background-image: url(../assets/img/theory/sim_ciphers.png);
+}

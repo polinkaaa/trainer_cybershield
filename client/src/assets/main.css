@@ -20,13 +20,13 @@
 }
 .logo {
     display: block;
-    background-image: url(../assets/img/logo.png);
+    background-image: url(./img/logo.png);
     width: 35px;
     height: 37px;
     background-size: cover;
 }
 .bg {
-    background-image: url(../assets/img/bg.png);
+    background-image: url(./img/bg.png);
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -119,3 +119,99 @@
 .header-nav li {
     cursor: pointer;
 }
+.my_photo {
+    display: block;
+    background-image: url(./img/image.png);
+    width: 250px;
+    height: 270px;
+    background-size: cover;
+    margin: 15px auto;
+    box-shadow: -13px 10px 16px rgba(0, 0, 0, 0.25);
+}
+.programmer {
+    margin-top: 15px;
+}
+.theory_flex {
+    display: flex;
+    justify-content: space-between;
+}
+.theory_box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    background-color: #F8F7F5;
+    padding: 5px 25px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.theory_photo_1, .theory_photo_2, .theory_photo_3, .theory_photo_4, .theory_photo_5, .theory_photo_6 {
+    display: block;
+    width: 270px;
+    height: 180px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+.theory_photo_1 {
+    background-image: url(./img/theory_img_1.png);
+}
+.theory_photo_2 {
+    background-image: url(./img/theory_img_2.png);
+}
+.theory_photo_3 {
+    background-image: url(./img/theory_img_3.png);
+}
+.theory_photo_4 {
+    background-image: url(./img/theory_img_4.png);
+}
+.theory_photo_5 {
+    background-image: url(./img/theory_img_5.png);
+}
+.theory_photo_6 {
+    background-image: url(./img/theory_img_6.png);
+}
+.theory_themes {
+    margin: 15px 0;
+}
+.bottom {
+    margin-bottom: 40px;
+}
+.info_ispring {
+    margin-top: 15px;
+}
+.menu_photo_1, .menu_photo_2, .menu_photo_3 {
+    display: block;
+    width: 230px;
+    height: 264px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+.menu_flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    gap: 50px;
+}
+.menu_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    gap: 20px;
+}
+.menu_photo_1 {
+    background-image: url(./img/theory_logo.png);
+}
+.menu_photo_2 {
+    background-image: url(./img/tasks_logo.png);
+}
+.menu_photo_3 {
+    background-image: url(./img/chat_logo.png);
+}
+.menu_title {
+    font-size: 25px;
+    color: #FFAB2D;
+    text-shadow: 1px 1px 1px #000;
+}
+
