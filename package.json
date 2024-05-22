@@ -1,7 +1,12 @@
 {
+  "homepage": "http://polinkaaa.github.io/trainer_cybershield",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "gh-pages": "^6.1.1",
     "jsonwebtoken": "^9.0.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
