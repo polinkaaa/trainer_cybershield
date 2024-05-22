@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/trainer_cybershield/static/css/main.73680a7f.css",
-    "main.js": "/trainer_cybershield/static/js/main.f6719047.js",
-    "static/media/image.png": "/trainer_cybershield/static/media/image.8adb95f3b7b0c2a7cdf7.png",
-    "static/media/bg.png": "/trainer_cybershield/static/media/bg.64f51365e617551c75f8.png",
-    "static/media/sim_ciphers.png": "/trainer_cybershield/static/media/sim_ciphers.b4ee2acfb358f2b13d7c.png",
-    "static/media/asimm_ciphers.png": "/trainer_cybershield/static/media/asimm_ciphers.c4b4ce780cdcc1ebe552.png",
-    "static/media/theory_img_3.png": "/trainer_cybershield/static/media/theory_img_3.bad6ef660f9de9d9dc9a.png",
-    "static/media/theory_img_1.png": "/trainer_cybershield/static/media/theory_img_1.2a730f6aa2b05c9fa15d.png",
-    "static/media/theory_logo.png": "/trainer_cybershield/static/media/theory_logo.a37baeb6f8d11cc9f6f7.png",
-    "static/media/chat_logo.png": "/trainer_cybershield/static/media/chat_logo.2c72740deabc3a17141e.png",
-    "static/media/tasks_logo.png": "/trainer_cybershield/static/media/tasks_logo.507a3f50606523e7d433.png",
-    "static/media/theory_img_4.png": "/trainer_cybershield/static/media/theory_img_4.cbe5470b6b6d8e6440cb.png",
-    "static/media/theory_img_5.png": "/trainer_cybershield/static/media/theory_img_5.1fb37b426a3faf74810a.png",
-    "static/media/theory_img_2.png": "/trainer_cybershield/static/media/theory_img_2.40d8961acd63aa67a811.png",
-    "static/media/theory_img_6.png": "/trainer_cybershield/static/media/theory_img_6.715e5df85f6d64ccda40.png",
-    "index.html": "/trainer_cybershield/index.html",
-    "main.73680a7f.css.map": "/trainer_cybershield/static/css/main.73680a7f.css.map",
-    "main.f6719047.js.map": "/trainer_cybershield/static/js/main.f6719047.js.map"
+    "main.css": "/static/css/main.f313760c.css",
+    "main.js": "/static/js/main.f6719047.js",
+    "static/media/image.png": "/static/media/image.8adb95f3b7b0c2a7cdf7.png",
+    "static/media/bg.png": "/static/media/bg.64f51365e617551c75f8.png",
+    "static/media/sim_ciphers.png": "/static/media/sim_ciphers.b4ee2acfb358f2b13d7c.png",
+    "static/media/asimm_ciphers.png": "/static/media/asimm_ciphers.c4b4ce780cdcc1ebe552.png",
+    "static/media/theory_img_3.png": "/static/media/theory_img_3.bad6ef660f9de9d9dc9a.png",
+    "static/media/theory_img_1.png": "/static/media/theory_img_1.2a730f6aa2b05c9fa15d.png",
+    "static/media/theory_logo.png": "/static/media/theory_logo.a37baeb6f8d11cc9f6f7.png",
+    "static/media/chat_logo.png": "/static/media/chat_logo.2c72740deabc3a17141e.png",
+    "static/media/tasks_logo.png": "/static/media/tasks_logo.507a3f50606523e7d433.png",
+    "static/media/theory_img_4.png": "/static/media/theory_img_4.cbe5470b6b6d8e6440cb.png",
+    "static/media/theory_img_5.png": "/static/media/theory_img_5.1fb37b426a3faf74810a.png",
+    "static/media/theory_img_2.png": "/static/media/theory_img_2.40d8961acd63aa67a811.png",
+    "static/media/theory_img_6.png": "/static/media/theory_img_6.715e5df85f6d64ccda40.png",
+    "index.html": "/index.html",
+    "main.f313760c.css.map": "/static/css/main.f313760c.css.map",
+    "main.f6719047.js.map": "/static/js/main.f6719047.js.map"
   },
   "entrypoints": [
-    "static/css/main.73680a7f.css",
+    "static/css/main.f313760c.css",
     "static/js/main.f6719047.js"
   ]
 }
